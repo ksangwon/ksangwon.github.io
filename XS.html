@@ -17,7 +17,7 @@
     async function search(query) {
         try {
             await req(
-              `http://127.0.0.1:8000/search?query=${query}`
+              `http://localhost:8000/search?query=${query}`
             );
             return true;
         } catch (e) {
